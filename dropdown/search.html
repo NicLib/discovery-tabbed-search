@@ -47,11 +47,11 @@ $('.windowForm').submit(function(e){
  
     <div class="tab-content">
         <div id="tab1" class="tab active">            
-		<form action="http://hanover.on.worldcat.org/search?" target="_blank">
+		<form action="http://anderson.on.worldcat.org/search?" target="_blank">
                            <div id="search">
                            <div class="search-title">
 
-                              <a id="advanced-search" title="Advanced Search" href="http://hanover.on.worldcat.org/advancedsearch" target="_blank">Advanced Search</a>
+                              <a id="advanced-search" title="Advanced Search" href="http://anderson.on.worldcat.org/advancedsearch" target="_blank">Advanced Search</a>
 
                               <h3>Search<span id="search-name"> Everything</span></h3>        
 
@@ -61,9 +61,11 @@ $('.windowForm').submit(function(e){
                               <input id="realquery" placeholder="Find books, videos, music, and more...." autofocus="autofocus" id="query" class="searchbox" name="queryString">
                            </div>
 						   <div class="dropdown-menu">
-						   <select name="scope" id="searchLibrary" class="dropdown-menu">
-								<option name="scope" value="wz:1076" selected>Duggan Library</option>
-								<option name="scope" value="">Libraries Worldwide</option>
+						   <input name='scope' type='hidden' value='wz:1274'>
+						   <select name="subscope" id="searchLibrary" class="dropdown-menu">
+								<option name='subscope' value='' selected>Nicholson Library</option>
+								<option name="subscope" value="wz:1274::zs:35416">Archives</option>
+								<option name="subscope" value="wz:1274::zs:35418">Special Collections</option>
 							</select>
 							</div>
 							<input type="submit" class="headersubmit" value="&#xf002;" title="Search">
