@@ -61,12 +61,21 @@ $('.windowForm').submit(function(e){
                               <input id="realquery" placeholder="Find books, videos, music, and more...." autofocus="autofocus" id="query" class="searchbox" name="queryString">
                            </div>
 						   <div class="dropdown-menu">
-						   <input name='scope' type='hidden' value='wz:1274'>
+						   <div class="dropdown-menu">
+						   <!-- Current Live -->
+						   <select name="scope" class="dropdown-menu">
+								<option value="" selected>Libraries Worldwide</option>
+								<!--<option value="sz:31296">Indiana Partner Libraries</option>-->
+								<option value="wz:1274">Nicholson Library</option>
+							</select>
+						   <!-- For getting more specific in the library -->
+						   <!--<input name='scope' type='hidden' value='wz:1274'>
 						   <select name="subscope" id="searchLibrary" class="dropdown-menu">
 								<option name='subscope' value='' selected>Nicholson Library</option>
 								<option name="subscope" value="wz:1274::zs:35416">Archives</option>
 								<option name="subscope" value="wz:1274::zs:35418">Special Collections</option>
-							</select>
+							</select>-->
+							</div>
 							</div>
 							<input type="submit" class="headersubmit" value="&#xf002;" title="Search">
 
