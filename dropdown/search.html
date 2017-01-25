@@ -98,10 +98,19 @@ $('.windowForm').submit(function(e){
                               <input type="hidden" name="subformat" value="Book::book_continuing">
                            </div>
 						   <div class="dropdown-menu">
-						   <select name="scope" id="searchLibrary" class="dropdown-menu">
-								<option name="scope" value="wz:1076" selected>Duggan Library</option>
-								<option name="scope" value="">Libraries WorldWide</option>
+						   <!-- Current Live -->
+						   <select name="scope" class="dropdown-menu">
+								<option value="" selected>Libraries Worldwide</option>
+								<!--<option value="sz:31296">Indiana Partner Libraries</option>-->
+								<option value="wz:1274">Nicholson Library</option>
 							</select>
+						   <!-- For getting more specific in the library -->
+						   <!--<input name='scope' type='hidden' value='wz:1274'>
+						   <select name="subscope" id="searchLibrary" class="dropdown-menu">
+								<option name='subscope' value='' selected>Nicholson Library</option>
+								<option name="subscope" value="wz:1274::zs:35416">Archives</option>
+								<option name="subscope" value="wz:1274::zs:35418">Special Collections</option>
+							</select>-->
 							</div>
 							<input type="submit" class="headersubmit" value="&#xf002;" title="Search">
 
@@ -125,14 +134,23 @@ $('.windowForm').submit(function(e){
                               <input type="hidden" name="subformat" value="Artchap::artchap_artcl">
 							
                            </div>
-						   <div class="dropdown">
-						   <select name="scope" id="searchLibrary" class="dropdown-menu">
-								<option name="scope" value="wz:1076" selected>Duggan Library</option>
-								<option name="scope" value="">Libraries WorldWide</option>
+						   <div class="dropdown-menu">
+						   <!-- Current Live -->
+						   <select name="scope" class="dropdown-menu">
+								<option value="" selected>Libraries Worldwide</option>
+								<!--<option value="sz:31296">Indiana Partner Libraries</option>-->
+								<option value="wz:1274">Nicholson Library</option>
 							</select>
-							
+						   <!-- For getting more specific in the library -->
+						   <!--<input name='scope' type='hidden' value='wz:1274'>
+						   <select name="subscope" id="searchLibrary" class="dropdown-menu">
+								<option name='subscope' value='' selected>Nicholson Library</option>
+								<option name="subscope" value="wz:1274::zs:35416">Archives</option>
+								<option name="subscope" value="wz:1274::zs:35418">Special Collections</option>
+							</select>-->
 							</div>
 							<input type="submit" class="headersubmit" value="&#xf002;" title="Search">
+
                         </div>
 
                      </form>
@@ -157,14 +175,25 @@ $('.windowForm').submit(function(e){
                               <input type="hidden" name="subformat" value="Video::video_bluray">
 							
                            </div>
-						   <div class="dropdown">
-						   <select name="scope" id="searchLibrary" class="dropdown-menu">
-								<option name="scope" value="wz:1076" selected>Duggan Library</option>
-								<option name="scope" value="">Libraries WorldWide</option>
+						   <div class="dropdown-menu">
+						   <div class="dropdown-menu">
+						   <!-- Current Live -->
+						   <select name="scope" class="dropdown-menu">
+								<option value="" selected>Libraries Worldwide</option>
+								<!--<option value="sz:31296">Indiana Partner Libraries</option>-->
+								<option value="wz:1274">Nicholson Library</option>
 							</select>
-							
+						   <!-- For getting more specific in the library -->
+						   <!--<input name='scope' type='hidden' value='wz:1274'>
+						   <select name="subscope" id="searchLibrary" class="dropdown-menu">
+								<option name='subscope' value='' selected>Nicholson Library</option>
+								<option name="subscope" value="wz:1274::zs:35416">Archives</option>
+								<option name="subscope" value="wz:1274::zs:35418">Special Collections</option>
+							</select>-->
+							</div>
 							</div>
 							<input type="submit" class="headersubmit" value="&#xf002;" title="Search">
+
                         </div>
 
                      </form>
